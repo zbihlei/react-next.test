@@ -1,0 +1,25 @@
+{
+  "name": "reactnextssr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"npx json-server db.json --port 3001\"",
+    "build": "next build",
+    "start": "DISABLE_ESLINT_PLUGIN=true next start",
+    "mock": "json-server db.json -p 3001 -d 1750",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.14",
+    "concurrently": "^8.0.1",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "next": "13.4.2",
+    "nextjs-progressbar": "^0.0.16",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.62.1",
+    "tailwindcss": "3.3.2"
+  }
+}

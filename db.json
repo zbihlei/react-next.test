@@ -1,0 +1,10 @@
+{
+    "posts": [
+        {"id": 1, "title": "Javascript Post 1", "body": "Lorem 1"},
+        {"id": 2, "title": "Javascript Post 2", "body": "Lorem 2"},
+        {"id": 3, "title": "Javascript Post 3", "body": "Lorem 3"}
+    ],
+    "about":{
+        "title": "Page about us"
+    }
+}
